@@ -37,6 +37,7 @@ export default class Authentication {
                app();
             }
          } catch (error) {
+            console.log(error);
             message.bgError(error?.response?.data?.message || "login error");
             setTimeout(() => {
                process.stdout.write("\x1Bc");
