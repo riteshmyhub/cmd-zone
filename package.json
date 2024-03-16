@@ -1,0 +1,38 @@
+{
+   "name": "cmd-zone",
+   "version": "1.0.0",
+   "description": "cmd-zone is cli tool for js library & framework",
+   "main": "./index.js",
+   "type": "module",
+   "bin": "./index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "cmd-zone": "node ./index.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/riteshmyhub/cmd-zone.git"
+   },
+   "keywords": [
+      "npm",
+      "react",
+      "angular",
+      "reudx",
+      "cli",
+      "vue",
+      "next"
+   ],
+   "author": "ritesh goswami",
+   "license": "Apache-2.0",
+   "dependencies": {
+      "axios": "^1.6.8",
+      "dotenv": "^16.4.5",
+      "figlet": "^1.7.0",
+      "inquirer": "^9.2.16",
+      "nanospinner": "^1.1.0"
+   },
+   "bugs": {
+      "url": "https://github.com/riteshmyhub/cmd-zone/issues"
+   },
+   "homepage": "https://github.com/riteshmyhub/cmd-zone#readme"
+}
