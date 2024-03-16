@@ -1,6 +1,6 @@
 {
    "name": "cmd-zone",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "cmd-zone is cli tool for js library & framework",
    "main": "./index.js",
    "type": "module",
