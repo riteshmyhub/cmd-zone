@@ -21,12 +21,12 @@ export default class App {
          let { data: code } = await http.get(downloadUrl);
          // replace to placeholder from fileName in inputName
          fileName = fileName.replace("[placeholder]", stringPipe(inputName, "t-t-l"));
-         fileName = fileName.replace("[Placeholder]", stringPipe(inputName, "t-t-c"));
+         fileName = fileName.replace("[PlaceHolder]", stringPipe(inputName, "t-t-c"));
          fileName = fileName.replace("[PLACEHOLDER]", stringPipe(inputName, "t-t-u"));
 
          // replace to placeholder from file content in inputName
          code = code.replace(/placeholder/g, stringPipe(inputName, "t-t-l"));
-         code = code.replace(/Placeholder/g, stringPipe(inputName, "t-t-c"));
+         code = code.replace(/PlaceHolder/g, stringPipe(inputName, "t-t-c"));
          code = code.replace(/PLACEHOLDER/g, stringPipe(inputName, "t-t-u"));
 
          let dirPath = process.cwd() + "/" + inputName;
